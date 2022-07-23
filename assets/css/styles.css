@@ -709,6 +709,58 @@ img{
   .home__img img {
     display: none;
   }
+
+  .swiper-pagination {
+    display: none;
+  }
+
+  .heading {
+    margin-top: 2rem;
+  }
+
+  .food-slider {
+    height: 63%;
+  }
+  
+  .food .slide img {
+    height: 10rem;
+  }
+
+  .food .slide h3 {
+    font-size: 2rem;
+  }
+
+  .food .slide .price {
+    font-size: 1.8rem;
+  }
+
+  .food-preview-container .food-preview{
+    width: 75%;
+    height: 90%;
+  }
+
+  #close-preview {
+    font-size: 2rem;
+    right: 14px;
+  }
+
+  .food-preview-container .food-preview img {
+    height: 6rem;
+  }
+
+  
+  .food-preview-container .food-preview h3 {
+    font-size: 2rem;
+    margin-top: -25px
+
+  }
+
+  .food-preview-container .food-preview p {
+    font-size: 1.3rem;
+    margin-top: -25px
+  }
+  
+
 }
 
 

@@ -1,3 +1,5 @@
+// window.URL.createObjectURL("./assets/img/4ecomm_trans");
+
 /*==================== SHOW MENU ====================*/
 const showMenu = (toggleId, navId) =>{
     const toggle = document.getElementById(toggleId),
