@@ -720,6 +720,7 @@ img{
 
   .food-slider {
     height: 63%;
+    margin-top: -50px;
   }
   
   .food .slide img {
