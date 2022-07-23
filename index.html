@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!--========== SLIDER ==========-->
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+
+
+        <title>Responsive landing page</title>
+    </head>
+    <body>
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+        </a>
+        
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">4ECOMM - Be Your Value</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#share" class="nav__link">Share</a></li>
+                        <li class="nav__item"><a href="#decoration" class="nav__link">Reason</a></li>
+                        <li class="nav__item"><a href="#food" class="nav__link">Solution</a></li>
+                        <li class="nav__item"><a href="#accessory" class="nav__link">Sample</a></li>
+
+                        <li><i class='bx bx-toggle-left change-theme' id="theme-button"></i></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--========== HOME ==========-->
+            <section class="home" id="home">
+                <div class="home__container bd-container bd-grid">
+                    <div class="home__img">
+                        <img src="assets/img/home-img/img1.1.png" alt="" data-speed="-2" class="move">
+                        <img src="assets/img/home-img/img2.1.png" alt="" data-speed="2" class="move">
+                        <img src="assets/img/home-img/img3.1.png" alt="" data-speed="2" class="move">
+                        <img src="assets/img/home-img/img4.1.png" alt="" data-speed="-2" class="move">
+                        <img src="assets/img/home-img/img5.1.png" alt="" data-speed="-2" class="move">
+                        <img src="assets/img/home-img/img6.1.png" alt="" data-speed="2" class="move">
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">Nâng Tầm Giá Trị Sản Phẩm Của Bạn</h1>
+                        <p class="home__description">4Ecomm - Sàn thương mại thiết kế, giúp nhà bán hàng trong nước và quốc tế nâng cao giá trị sản phẩm với chi phí tối ưu nhất.</p>
+                        <a href="#" class="button">Đăng Ký Ngay</a>
+                    </div>   
+                </div>
+            </section>
+
+
+            <!--========== SHARE ==========-->
+            <section class="share section bd-container" id="share">
+                <div class="share__container bd-grid">
+                    <div class="share__data">
+                        <h2 class="section-title-center">Khi Cảm Xúc Và Sự Tin Tưởng Quyết Định Nên<br>Hành Vi Mua Hàng</h2>
+                        <p class="share__description">Chúng tôi hiểu rằng cảm xúc khi sỡ hữu một sản phẩm, trải nghiệm khi sử dụng sản phẩm đó chính là điều làm nên sự hài lòng và trung thành của khách hàng.</p>
+                        <a href="#" class="button">Tìm Hiểu Thêm</a>
+                    </div>
+
+                    <div class="share__img">
+                        <img src="assets/img/gift-1.png" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!--========== DECORATION ==========-->
+            <section class="decoration section bd-container" id="decoration">
+                <h2 class="section-title">Có Phải Bạn Đang Hoặc Sắp Xây Dựng Thương Hiệu<br>Nhưng Bạn</h2>
+                <div class="decoration__container bd-grid">
+
+                    <div class="decoration__data">
+                        <img src="assets/img/reason/girl.png" alt="" class="decoration__img">
+                        <h3 class="decoration__title">Chưa Biết Bắt Đầu</h3>
+                        <a href="#" class="button button-link">Từ Đâu</a>
+                    </div>
+
+                    <div class="decoration__data">
+                        <img src="assets/img/reason/bulb.png" alt="" class="decoration__img">
+                        <h3 class="decoration__title">Chưa Có Ý Tưởng</h3>
+                        <a href="#" class="button button-link">Sản Phẩm</a>
+                    </div>
+
+                    <div class="decoration__data">
+                        <img src="assets/img/reason/explorerr.png" alt="" class="decoration__img">
+                        <h3 class="decoration__title">Mất Quá Nhiều Thời Gian Để Tìm Kiếm</h3>
+                        <a href="#" class="button button-link">Sản Phẩm Tiềm Năng</a>
+                    </div>
+
+                    <div class="decoration__data">
+                        <img src="assets/img/reason/bag.png" alt="" class="decoration__img">
+                        <h3 class="decoration__title">Băn Khoăn Về Chất Lượng</h3>
+                        <a href="#" class="button button-link">Nguồn Hàng</a>
+                    </div>
+
+                    <div class="decoration__data">
+                        <img src="assets/img/reason/pin.png" alt="" class="decoration__img">
+                        <h3 class="decoration__title">Tìm Kiếm Kho Hàng</h3>
+                        <a href="#" class="button button-link">Lưu Trữ Và Đóng Gói</a>
+                    </div>
+
+                    <div class="decoration__data">
+                        <img src="assets/img/reason/chart.png" alt="" class="decoration__img">
+                        <h3 class="decoration__title">Kinh Doanh Chưa</h3>
+                        <a href="#" class="button button-link">Hiệu Quả</a>
+                    </div>
+
+                    
+
+                    
+                </div>
+            </section>
+
+
+            <!-- Review section starts  -->
+
+            <section class="food" id="food">
+
+                <div class="heading">  
+                <span>Với 4ECOMM</span>
+                <h3>Chưa Bao Giờ Là Dễ Dàng Như Thế</h3>
+                </div>
+            
+                <div class="swiper food-slider">
+            
+                <div class="swiper-wrapper">
+            
+                    <div class="swiper-slide slide" data-name="food-1">
+                        <img src="./assets/img/solution/creater.png" alt="">
+                        <h3>Khởi Tạo Ý Tưởng</h3>
+                        <div class="price">Nhà Bán Hàng</div>
+                    </div>
+            
+                    <div class="swiper-slide slide" data-name="food-2">
+                        <img src="./assets/img/solution/design.png" alt="">
+                        <h3>Thiết Kế Sản Phẩm</h3>
+                        <div class="price">Nhà Thiết Kế</div>
+                    </div>
+            
+                    <div class="swiper-slide slide" data-name="food-3">
+                        <img src="./assets/img/solution/device.png" alt="">
+                        <h3>Sàn Thương Mại</h3>
+                        <div class="price">Thiết Kế</div>
+                    </div>
+            
+                    <div class="swiper-slide slide" data-name="food-4">
+                        <img src="./assets/img/solution/office.png" alt="">
+                        <h3>Sản Xuất Hàng Hóa</h3>
+                        <div class="price">Nhà Sản Xuất</div>
+                    </div>
+            
+                    <div class="swiper-slide slide" data-name="food-5">
+                        <img src="./assets/img/solution/monitoring.png" alt="">
+                        <h3>Phát Triển Công Việc </h3>
+                        <div class="price">Bán Hàng</div>
+                    </div>
+            
+                </div>
+            
+                <div class="swiper-pagination"></div>
+            
+                </div>
+            
+            </section>
+ 
+            <!-- food section ends -->
+ 
+            <!-- food preview section starts  -->
+ 
+            <section class="food-preview-container">
+            
+                <div id="close-preview" class="fas fa-times"></div>
+            
+                <div class="food-preview" data-target="food-1">
+                <img src="./assets/img/solution/creater.png" alt="">
+                <h3>Khởi Tạo Ý Tưởng</h3>
+                
+                <p>4Ecomm sẽ cung cấp cho bạn chuỗi các câu hỏi, giúp khái quát rõ ràng nhất sản phẩm mà bạn hướng đến. Từ thông tin mà bạn cung cấp, 4Ecomm sẽ kết nối với nhà thiết kế phù hợp nhất với bạn.</p>
+                <a href="#" class="button button-link">Tìm hiểu thêm</a>
+                </div>
+            
+                <div class="food-preview" data-target="food-2">
+                <img src="./assets/img/solution/design.png" alt="">
+                <h3>Thiết Kế Sản Phẩm</h3>
+                
+                <p>Nhà thiết kế được đề xuất sẽ thiết kế theo mô tả của khách hàng. Ngoài ra nhà thiết kế có thể tạo bộ sưu tập, đăng bán trên sàn 4Ecomm.</p>
+                <a href="#" class="button button-link">Tìm hiểu thêm</a>
+                </div>
+            
+                <div class="food-preview" data-target="food-3">
+                <img src="./assets/img/solution/device.png" alt="">
+                <h3>Sàn Thương Mại Thiết kế</h3>
+                
+                <p>4Ecomm cung cấp sàn thương mại, hỗ trợ những nhà thiết kế bán những thiết kế của mình và các thiết kế này sẽ được bảo vệ bằng blockchain</p>
+                <a href="#" class="button button-link">Tìm hiểu thêm</a>
+                </div>
+            
+                <div class="food-preview" data-target="food-4">
+                <img src="./assets/img/solution/office.png" alt="">
+                <h3>Sản Xuất Hàng Hóa</h3>
+                
+                <p>Sản phẩm sau khi thiết kế sẽ được để xuất nhà sản xuất phù hợp đã qua kiểm duyệt theo tiêu chuẩn của 4Ecomm. Người dùng có thể lựa chọn đóng gói hoặc xuất hàng.</p>
+                <a href="#" class="button button-link">Tìm hiểu thêm</a>
+                </div>
+            
+                <div class="food-preview" data-target="food-5">
+                <img src="./assets/img/solution/monitoring.png" alt="">
+                <h3>Phát Triển Kinh Doanh</h3>
+                
+                <p>4Ecomm sẽ hỗ trợ một phần kho lưu trữ, đóng gói theo tiêu chuẩn của Mỹ, dịch vụ gửi hàng xuyên biên giới. 4Ecomm cung cấp phần mềm phân tích xu hướng và hỗ trọ kinh doanh</p>
+                <a href="#" class="button button-link">Tìm hiểu thêm</a>
+                </div>
+            
+            </section>
+ 
+            <!-- food preview section ends -->
+
+
+            <!--========== ACCESSORIES ==========-->
+            <section class="accessory section bd-container" id="accessory">
+                <h2 class="section-title">Thật Đơn Giản<br> Để <span>Kinh Doanh</span> Ý Tưởng Của Bạn</h2>
+
+                <div class="accessory__container bd-grid">
+                    <div class="accessory__content">
+                        <img src="assets/img/accessory1.png" alt="" class="accessory__img">
+                        <h3 class="accessory__title">Cầu tuyết</h3>
+                        <span class="accessory__category">Trang Trí</span>
+                        <span class="accessory__preci">99.000 VND</span>
+                        <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
+                    </div>
+
+                    <div class="accessory__content">
+                        <img src="./assets/img/sample/bag.jpg" alt="" class="accessory__img">
+                        <h3 class="accessory__title">Túi xách</h3>
+                        <span class="accessory__category">Thời Trang</span>
+                        <span class="accessory__preci">999.000 VND</span>
+                        <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
+                    </div>
+
+                    <div class="accessory__content">
+                        <img src="assets/img/accessory3.png" alt="" class="accessory__img">
+                        <h3 class="accessory__title">Angel</h3>
+                        <span class="accessory__category">Phụ Kiện</span>
+                        <span class="accessory__preci">59.000 VND</span>
+                        <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
+                    </div>
+
+                    <div class="accessory__content">
+                        <img src="./assets/img/sample/shirt.jpg" alt="" class="accessory__img">
+                        <h3 class="accessory__title">Áo Thun</h3>
+                        <span class="accessory__category">Thời Trang</span>
+                        <span class="accessory__preci">69.000 VND</span>
+                        <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
+                    </div>
+
+                    <div class="accessory__content">
+                        <img src="./assets/img/sample/coc.jpg" alt="" class="accessory__img">
+                        <h3 class="accessory__title">Cốc dễ thương</h3>
+                        <span class="accessory__category">Trang Trí</span>
+                        <span class="accessory__preci">89.000 VND</span>
+                        <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
+                    </div>
+
+                    <div class="accessory__content">
+                        <img src="./assets/img/sample/shoes.jpg" alt="" class="accessory__img">
+                        <h3 class="accessory__title">Giày da</h3>
+                        <span class="accessory__category">Thời trang</span>
+                        <span class="accessory__preci">299.000 VND</span>
+                        <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
+                    </div>
+                </div>
+            </section>
+
+            <!--========== SEND GIFT ==========-->
+            <section class="send section">
+                <div class="send__container bd-container bd-grid">
+                    <div class="send__content">
+                        <h2 class="section-title-center send__title">Liên hệ với chúng tôi</h2>
+                        <p class="send__description">Cảm ơn bạn đã quan tâm đến dịch vụ của chúng tôi. Nếu có bất cứ thắc mắc, hãy liên hệ với chúng tôi để được giải đáp sớm nhất.</p>
+                        <form action="">
+                            <div class="send__direction">
+                                <input type="text" placeholder="SĐT hoặc Địa chỉ email" class="send__input">
+                                <a href="#" class="button">Gửi</a>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="send__img">
+                        <img src="assets/img/phone.png" alt="">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer section">
+            <div class="footer__container bd-container bd-grid">
+                <div class="footer__content">
+                    <h3 class="footer__title">
+                        <a href="#" class="footer__logo">4Ecomm</a>
+                    </h3>
+                    <p class="footer__description">Trợ lý bán hàng chuyên nghiệp của bạn.</p>
+                    <!-- <img src="./assets/img/4ecomm_trans.png" alt=""> -->
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Our Services</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Pricing </a></li>
+                        <li><a href="#" class="footer__link">Discounts</a></li>
+                        <li><a href="#" class="footer__link">Shipping mode</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Our Company</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Blog</a></li>
+                        <li><a href="#" class="footer__link">About us</a></li>
+                        <li><a href="#" class="footer__link">Our mission</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Social</h3>
+                    <a href="#" class="footer__social"><i class='bx bxl-facebook-circle '></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-instagram-alt'></i></a>
+                    <br/>
+                    <br/>
+                    <p>Hotline: 0385555536</p>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; 2022 4ECOMM. All right reserved</p>
+        </footer>
+
+        <!--========== SCROLL REVEAL ==========-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+        <script src="./assets/js/slider.js" type="module"></script>
+
+    </body>
+</html>
